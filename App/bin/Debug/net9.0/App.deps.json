@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "App/1.0.0": {
+        "dependencies": {
+          "BlackJackLibrary": "1.0.0",
+          "UI": "1.0.0"
+        },
+        "runtime": {
+          "App.dll": {}
+        }
+      },
+      "BlackJackLibrary/1.0.0": {
+        "dependencies": {
+          "UI": "1.0.0"
+        },
+        "runtime": {
+          "BlackJackLibrary.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UI/1.0.0": {
+        "runtime": {
+          "UI.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlackJackLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
